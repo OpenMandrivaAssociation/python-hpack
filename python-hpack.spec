@@ -1,7 +1,7 @@
 %define module	hpack
 
 Name:		python-%{module}
-Version:	3.0.0
+Version:	4.0.0
 Release:	1
 Summary:	Pure-Python HPACK header compression
 Group:		Development/Python
@@ -14,6 +14,13 @@ BuildRequires:	python3dist(setuptools)
 %{?python_provide:%python_provide python3-%{module}}
 
 BuildArch:	noarch
+
+%files
+%doc CONTRIBUTORS.rst LICENSE README.rst
+%{python_sitelib}/%{module}/
+%{python_sitelib}/%{module}-%{version}-py%{python_version}.egg-info/
+
+#----------------------------------------------------------------------------
 
 %description
 This module contains a pure-Python HTTP/2 header encoding (HPACK) logic
@@ -32,8 +39,3 @@ rm -rf %{module}.egg-info
 
 %install
 %py_install
-
-%files
-%doc CONTRIBUTORS.rst HISTORY.rst LICENSE README.rst
-%{python_sitelib}/%{module}/
-%{python_sitelib}/%{module}-%{version}-py%{python_version}.egg-info/
