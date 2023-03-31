@@ -2,7 +2,7 @@
 
 Name:		python-%{module}
 Version:	4.0.0
-Release:	2
+Release:	3
 Summary:	Pure-Python HPACK header compression
 Group:		Development/Python
 License:	MIT
