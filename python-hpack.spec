@@ -6,7 +6,7 @@ Release:	3
 Summary:	Pure-Python HPACK header compression
 Group:		Development/Python
 License:	MIT
-URL:		http://hyper.rtfd.org/
+URL:		https://hyper.rtfd.org/
 Source0:	https://pypi.io/packages/source/h/hpack/%{module}-%{version}.tar.gz
 
 BuildRequires:	pkgconfig(python)
