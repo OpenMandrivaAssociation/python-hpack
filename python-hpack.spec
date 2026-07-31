@@ -1,7 +1,7 @@
 %define module	hpack
 
 Name:		python-hpack
-Version:	4.1.0
+Version:	4.2.0
 Release:	1
 Summary:	Pure-Python HPACK header compression
 Group:		Development/Python
