@@ -2,7 +2,7 @@
 
 Name:		python-hpack
 Version:	4.2.0
-Release:	1
+Release:	2
 Summary:	Pure-Python HPACK header compression
 Group:		Development/Python
 License:	MIT
